@@ -50,12 +50,8 @@ if st.button("Fetch Jobs"):
         if not filtered_jobs.empty:
             st.write(f"### Recommended Jobs for {email}")
             for idx, row in filtered_jobs.iterrows():
-                # If Skills is a list, join properly
-                if isinstance(row["Skills"], list):
-                       formatted_skills = "\n".join([f"- {skill}" for skill in row["Skills"]])
-                else:
-                       # If Skills is a string (comma-separated), split by commas
-                       formatted_skills = "\n".join([f"- {skill.strip()}" for skill in row["Skills"].split(',')])
+                skills_list = row["Skills"].split()
+                formatted_skills = "\n".join([f"- {skill}" for skill in skills_list])
                  
                 st.markdown(f"""
 **{row['Title']}** at *{row['Company']}*  
