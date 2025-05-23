@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head><title>Register</title></head>
+  <body>
+    <h1>Register Your Interests</h1>
+    <form method="POST">
+      <label>Username:</label><input type="text" name="username" required><br>
+      <label>Select Your Interested Clusters:</label><br>
+      {% for cluster in clusters %}
+        <input type="checkbox" name="interests" value="{{ cluster }}"> Cluster {{ cluster }}<br>
+      {% endfor %}
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
