@@ -1,9 +1,12 @@
-scikit-learn
+streamlit
 pandas
+scikit-learn
+joblib
+beautifulsoup4
+requests
+matplotlib
+nltk
 numpy
 schedule
 dotenv
-Flask
-beautifulsoup4
-requests
 
