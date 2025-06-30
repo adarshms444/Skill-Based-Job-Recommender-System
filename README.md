@@ -1,5 +1,5 @@
 
-# 🧠 Skill-Based Job Recommender System - Documentation
+# Skill-Based Job Recommender System - Documentation
 
 This file describes the structure, logic, and functionality of the Skill-Based Job Recommender System. It provides users with personalized job recommendations based on their preferred skill clusters, using unsupervised machine learning and real-time web scraping.
 
