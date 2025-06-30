@@ -14,7 +14,7 @@ This file describes the structure, logic, and functionality of the Skill-Based J
 2. **Preprocessing & Clustering**
     - The `cluster_model.py` file preprocesses skill text data (cleaning, lowercasing, stemming).
     - TF-IDF vectorization is applied to convert text to numeric vectors.
-    - Agglomerative Clustering groups job posts into skill-based clusters.
+    - K-Means Clustering groups job posts into skill-based clusters.
     - The model and vectorizer are saved as `job_model.pkl`.
 
 3. **Streamlit Web Application**
