@@ -31,13 +31,13 @@ This system provides users with personalized job recommendations based on their 
 5. **Pre-Clustered Dataset**
     - `clustered_jobs.csv` optionally contains preprocessed and clustered job postings for quick preview or offline testing.
 
+6. **Email Notification System**
+   - Implemented in `notify.py`
 ---
-
-## 🖼️ Screenshot Preview
 
 | Email Notification Example |
 |----------------------------|
-| ![Email Screenshot](email_screenshot.png) |
+| ![Email Screenshot](https://github.com/adarshms444/Skill-Based-Job-Recommender-System/blob/main/Email_Notification.png) |
 
 ---
 
@@ -68,22 +68,6 @@ This system provides users with personalized job recommendations based on their 
 
 **Step 5: User Interaction**
 - Users interact via Streamlit to select clusters and view recommended jobs.
-
----
-
-##  Project Structure
-
-```
-skill-job-recommender/
-├── streamlit_app.py            # Streamlit web interface
-├── scraper.py                  # Job scraper for Karkidi
-├── cluster_model.py            # Preprocessing + clustering logic
-├── clustered_jobs.csv          # Sample clustered dataset
-├── job_model.pkl               # Trained model & TF-IDF vectorizer
-├── user_preferences.json       # Stores user cluster choices
-├── requirements.txt            # Python dependencies
-└── README.md                   # This file
-```
 
 ---
 
