@@ -1,7 +1,7 @@
 
 # Skill-Based Job Recommender System - Documentation
 
-This file describes the structure, logic, and functionality of the Skill-Based Job Recommender System. It provides users with personalized job recommendations based on their preferred skill clusters, using unsupervised machine learning and real-time web scraping.
+This system provides users with personalized job recommendations based on their preferred skill clusters, using unsupervised machine learning and real-time web scraping and Users receive daily email alerts for relevant jobs.
 
 ---
 
@@ -30,6 +30,14 @@ This file describes the structure, logic, and functionality of the Skill-Based J
 
 5. **Pre-Clustered Dataset**
     - `clustered_jobs.csv` optionally contains preprocessed and clustered job postings for quick preview or offline testing.
+
+---
+
+## 🖼️ Screenshot Preview
+
+| Email Notification Example |
+|----------------------------|
+| ![Email Screenshot](email_screenshot.png) |
 
 ---
 
